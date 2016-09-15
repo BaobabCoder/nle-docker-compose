@@ -40,4 +40,9 @@ services:
       - default
     depends_on:
       - nle
+    environment:
+      - NLE_URL=192.168.99.100
+      - NLE_PORT=3000
+      - NLE_PROTOCOL=http
+      - NLE_KEY=ee78363e-ddd3-41d4-bcfd-e1cb5984d879
 
